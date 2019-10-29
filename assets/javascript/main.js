@@ -1,15 +1,25 @@
-$(document).ready(function () {
-    
-    // Called Intro
+$(document).ready(function(){
+
     intro();
 
+    $("#RPS").click(function(){
+        window.location.href = "https://e-holmes.github.io/RPS-Multiplayer/";
+    });
+
+    $("#WG").click(function(){
+        window.location.href = "https://e-holmes.github.io/WordGuessGame/";
+    });
+
+    $("#J").click(function(){
+        window.location.href = "https://e-holmes.github.io/jeopardy/";
+    });
+
+    $("#GT").click(function(){
+        window.location.href = "https://e-holmes.github.io/GifTastic/";
+    });
 
 
 
-
-
-
-    // Welcome Page Feature
     function intro(){
         var index = ["About Me", "My Portfolio", "Contact Me"];
         var indexID = ["aboutMe", "portfolio", "contacts"];
@@ -29,7 +39,7 @@ $(document).ready(function () {
             if (item == "0"){
                 // If AboutMe clicked
                 $("#body").empty();
-                window.location.assign("html/aboutMe.html");
+                window.location.assign("../html/aboutMe.html");
                 
                 console.log("Button click: " +item);
 
@@ -37,21 +47,18 @@ $(document).ready(function () {
             } else if (item == "1"){
                 // If Portfolio clicked
                 $("#body").empty();
-                window.location.assign("html/portfolio.html");
+                window.location.assign("../html/portfolio.html");
                 console.log("Button click: " +item);
                 
             } else if (item == "2"){
                 // If Contacts clicked
                 $("#body").empty();
-                window.location.assign("html/contacts.html");
+                window.location.assign("../html/contacts.html");
                 console.log("Button click: " +item);
 
             }
         })
         console.log("Intro Function Complete");
     };
-
-
-
 
 });

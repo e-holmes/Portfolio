@@ -1,0 +1,13 @@
+.pic1{
+    width:100%;
+}
+
+.pHead{
+    text-align: center;
+}
+
+th, td {
+    padding: 5%;
+    text-align: center;
+    border-spacing:5%
+}
