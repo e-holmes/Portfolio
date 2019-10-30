@@ -7,5 +7,10 @@
 }
 
 .button{
+    margin: 2%;
+}
+
+.contact-box{
+    background-color: blueviolet;
     margin: 5%;
 }

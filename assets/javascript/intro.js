@@ -15,7 +15,7 @@ $(document).ready(function () {
         var indexID = ["aboutMe", "portfolio", "contacts"];
 
         for (i="0"; i < index.length; i++){ 
-            var buttonHold = $("<button id='"+ indexID[i] +"' class='button col-lr-3 col-sm-2' value=" +i +">"); 
+            var buttonHold = $("<button id='"+ indexID[i] +"' class='button col-lr-2 col-2 col-md-2 col-sm-2' value=" +i +">"); 
             buttonHold.append(index[i]);
             $("#intoButton").append(buttonHold);
             console.log("Buttons appended");
@@ -30,7 +30,7 @@ $(document).ready(function () {
                 // If AboutMe clicked
                 $("#body").empty();
                 window.location.assign("html/aboutMe.html");
-                
+
                 console.log("Button click: " +item);
 
 
