@@ -15,8 +15,8 @@ $(document).ready(function () {
         var indexID = ["aboutMe", "portfolio", "contacts"];
 
         for (i="0"; i < index.length; i++){ 
-            var buttonHold = $("<button id='"+ indexID[i] +"' class='button col-lr-2 col-2 col-md-2 col-sm-2' value=" +i +">"); 
-            buttonHold.append(index[i]);
+            var buttonHold = $("<div class='col-lr-1 col-md-2 col-sm-3 col-xs-12'>");
+            buttonHold.append("<button id='"+ indexID[i] +"' class='button' value=" +i +">" +index[i]);
             $("#intoButton").append(buttonHold);
             console.log("Buttons appended");
         }
