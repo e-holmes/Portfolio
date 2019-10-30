@@ -6,8 +6,6 @@
     text-align: center;
 }
 
-th, td {
-    padding: 5%;
-    text-align: center;
-    border-spacing:5%
+.button{
+    margin: 5%;
 }
