@@ -10,4 +10,65 @@
     margin: 2%;
 }
 
+body{
+    background-color: #c5bad8;
+    text-align: center;
+}
+
+a{
+    color: #47ffca;
+}
+
+h1{
+    color:#d160a5;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+h1:hover{
+    color: #47ffca;
+}
+
+.contact-hold{
+    border: 2px solid #47ffca;
+    background-color: #9b9ec9;
+    color:#d160a5;
+}
+
+button{
+    border-radius: 50%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #8f89af; /* Green */
+    color: #47ffca;
+    border-color:#d160a5;
+}
+
+.pic1{
+    border: 2px solid #d160a5;
+    margin:5%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.pic1:hover{
+    border: 4px solid #47ffca;
+}
+
+.myphoto{
+    width: 100%;
+    border: 2px solid #d160a5;
+}
+
+.para{
+    padding:5%;
+    border: 2px solid #d160a5;
+    border-radius: 2%;
+    margin-top:10px;
+    line-height: 150%;
+    font-family: 
+}
 
